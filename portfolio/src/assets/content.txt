@@ -6,10 +6,7 @@ About me
 
 --------banner section--------------
 # heading
-Hello, I'm Iaroslav, 
-frontend developer
-## sub heading
-Former digital-marketing specialist, seeking to apply competent development skills with focus on collaboration, communication, and passion
+
 
 
 --------Projects--------------
@@ -58,12 +55,9 @@ B2 english
 RWD
 
 --------About me--------------
-2011
-Graduated KTC (Krasnodar Technical College) and for about two years worked with high voltage (35, 110kV) substations as the specialty electrician of emergency mobile crew.
-Later qualified as a Crossfit trainer.
-2016
-Underwent a digital marketing course and started to work as a PPC and project manager in a local web studio. After 3 months started my own freelance practice.
-2021
-Became more interested in IT and decided to try programming. Underwent Java course and made a project.
-2022
-Worked out in which field I want to build a developer's career and started to learn Frontend Development.
+
+
+ Hello, my name is Joshua King, I am a junior web developer with strong problem-solving skills and excellent communication abilities. 
+ I graduated UTA (University of Texas at Austin) and have experience in web development for approximately 1 year and passionate about creating user-friendly and visually appealing websites. 
+ I am self-motivated and a team player to help acheive goals and beyond. 
+ Lastly adept at staying up-to-date with the latest web development trends and technologies, and excited to contribute to a dynamic team and deliver high-quality web solutions.
