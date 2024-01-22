@@ -274,13 +274,13 @@ function App() {
           <div>
             <ul className="flex gap-4">
               <li>
-                <a> <img src={facebook} /></a>
+                <a> <img src={facebook} className="w-6"/></a>
               </li>
               <li>
-                <a> <img src={LinkedIn} /></a>
+                <a> <img src={LinkedIn} className="w-6"/></a>
               </li>
               <li>
-                <a> <img src={Instagram} /></a>
+                <a> <img src={Instagram} className="w-6"/></a>
               </li>
             </ul>
           </div>
