@@ -6,4 +6,26 @@ body {
 .gradiant-text {
   -webkit-background-clip: text;
   @apply bg-gradient-to-t from-orange-500 to-yellow-500 text-transparent;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  animation: typing-text steps(40) 3s infinite, blink linear 0.1s infinite;
+  text-wrap: nowrap;
+  display: inline-block;
+  width: 0;
+}
+
+@keyframes typing-text {
+  from {
+    width:50%;
+  }
+  to {
+    width:100%
+  }
+}
+
+@keyframes typing-text {
+  50% {
+    border-color: transparent;
+  }
+ 
 }
