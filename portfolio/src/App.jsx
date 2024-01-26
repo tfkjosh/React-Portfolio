@@ -1,4 +1,6 @@
 import "./App.css";
+import React from 'react'
+import { useState } from 'react'
 import Porfile from "./assets/Photo.png";
 import Project1 from "./assets/Project1.png";
 import Project2 from "./assets/Project2.png";
@@ -10,6 +12,17 @@ import Instagram from "./assets/instagram.svg";
 
 
 function App() {
+  const [data, setData] = useState({name: "", email: "", phone: "", message:""});
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setData({...data, [name]: value})
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(data)
+  }
   return (
     <>
       <header>
@@ -145,7 +158,7 @@ function App() {
                   <h2 className="font-semibold">CSS, Sass & Bootstrap</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -175,7 +188,7 @@ function App() {
                   <h2 className="font-semibold">React</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -272,6 +285,15 @@ function App() {
             <p className="text-gray-300 text-sm">
             Copyright @ 2024
             </p>
+            <form method="post" onSubmit={handleSubmit}>
+            <h1>Contact<span> Here</span></h1>
+            <input type="text" name="name" id="" onChange={handleChange} value={data.name} placeholder="Enter Name"/>
+            <input type="email" name="email" id="" onChange={handleChange} value={data.email} placeholder="Example@mail.com"/>
+            <input type="phone" name="phone" id="" onChange={handleChange} value={data.phone} placeholder="+91"/>
+            <input type="message" id="" cols="30" onChange={handleChange} rows="10" value={data.message} placeholder="Type here..."/>
+            <button type="submit">Send</button> 
+            <p>{data.name},{data.email},{data.phone},{data.message} </p>
+          </form>
           </div>
           <div>
             <ul className="flex gap-4">
