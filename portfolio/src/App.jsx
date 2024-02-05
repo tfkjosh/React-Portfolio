@@ -34,25 +34,25 @@ function App() {
           </div>
           <ul className="flex gap-4">
             <li>
-              <a className="text-gray-400 hover:text-white cursor-pointer">
+              <a className="text-gray-400 hover:text-white cursor-pointer" a href="#Projects">
                 {" "}
                 Projects
               </a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white cursor-pointer">
+              <a className="text-gray-400 hover:text-white cursor-pointer" a href="#Experience">
                 {" "}
                 Experience
               </a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white cursor-pointer">
+              <a className="text-gray-400 hover:text-white cursor-pointer" a href="#About-me">
                 {" "}
                 About Me
               </a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white cursor-pointer">
+              <a className="text-gray-400 hover:text-white cursor-pointer" a href="#Contact">
                 {" "}
                 Contact
               </a>
@@ -63,11 +63,11 @@ function App() {
       <main>
         {/*Intro Banner Section */}
         <section>
-        <div className="container m-auto px-4 py-30 flex gap-6">
+        <div className="container m-auto px-4 py-32 flex gap-6">
           <div>
             <h2 className="font-bold text-4xl">Hey There! I'm Joshua King, </h2>
             <h2 className="font-bold text-4xl mt-1 gradiant-text">A Junior Web Developer</h2>
-            <p className="mt-4 text-gray-400">Former contruction worker, seeking to apply competent development skills with focus on collaboration, communication and passion.</p>
+            <p className="mt-4 text-gray-400">Former general laborer, seeking to apply competent development skills with focus on collaboration, communication and passion.</p>
           </div>
           <div className="relative">
             <img src={Porfile} width={420} className="relative z-10" />
@@ -75,16 +75,18 @@ function App() {
         </div>
         </section>
         {/*Projects section */}
-        <section>
-          <div className="container m-auto px-4 py-12"></div>
-          <h2 className="text-2xl font-semibold">Projects</h2>
-          <div className="flex gap-10 mt-11">
+        <section className="py-10" section id="Projects" >
+          <div className="container m-auto px-4 sm:py-12">
+            <h2 className="text-2xl font semi-bold">Projects</h2>
+            <div className="flex flex-col sm:flex-col gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5">
-               <img src={Project1} className="w-full h-auto"/>
+                {/*https://github.com/alla0810/Group9*/}
+                <a href="https://github.com/alla0810/Group9" target="_blank" class="project 1"></a>
+               <img src={Project1} alt="https://github.com/alla0810/Group9" className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
                   The AMAZON NAVIGATOR is designed for customers to view item reviews and pricing.
                 </h3>
-              <p className="text-gray-400 text-sm mt-4">Amazon Navigator</p>
+              <p className="text-gray-400 text-sm mt-4">https://github.com/alla0810/Group9</p>
               <div className="flex justify-evenly mt-12">
                 <button className="px-6 py-3 text-lg bg-gradient-to-t from-orange-500 rounded-full to-yellow-500 hover:from-orange-700 hover:to-yellow-700">
                   Live preview
@@ -95,11 +97,13 @@ function App() {
               </div>
             </div>
             <div className="border border-gray-500 rounded-md p-5">
-              <img src={Project2} className="w-full h-auto"/>
+              {/*https://github.com/VictoriaSweet/scary-potato*/}
+              <a href="https://github.com/VictoriaSweet/scary-potato" target="_blank" class="project 2"></a>
+              <img src={Project2}  alt="https://github.com/VictoriaSweet/scary-potato" className="w-full h-auto"/>
               <h3 className="text-2xl font-semibold mt-8">
-              Plant Parenthood is the application to help the those who are new to the hobby or just maybe even a weekend plantsitter or award winning growers. Nothing to make the novice grower anxious, just the basic facts to the plant.
+              Plant Parenthood is the application to help the those who are new to the hobby or just maybe even a weekend plantsitter or award winning growers. 
               </h3>
-              <p className="text-gray-400 text-sm mt-4">🌱 Plant Parenthood: The free application to support the needs of your growing plants from any sprouts of life.</p>
+              <p className="text-gray-400 text-sm mt-4">https://github.com/VictoriaSweet/scary-potato</p>
               <div className="flex justify-evenly mt-12">
                 <button className="px-6 py-3 text-lg bg-gradient-to-t from-orange-500 rounded-full to-yellow-500 hover:from-orange-700 hover:to-yellow-700">
                   Live preview
@@ -110,11 +114,13 @@ function App() {
               </div>
             </div>
             <div className="border border-gray-500 rounded-md p-5">
-              <img src={Project1} />
+              {/*https://tfkjosh.github.io/Password-generator/*/}
+              <a href="https://tfkjosh.github.io/Password-generator/" target="_blank" class="project 3"></a>
+              <img src={Project3} alt="https://tfkjosh.github.io/Password-generator/" className="w-full h-auto" />
               <h3 className="text-2xl font-semibold mt-8">
-                Project Description
+              This application is designed for an employee to generate a random password based on criteria they've selected.
               </h3>
-              <p className="text-gray-400 text-sm mt-4">Project Name</p>
+              <p className="text-gray-400 text-sm mt-4">https://github.com/tfkjosh/Password-generator</p>
               <div className="flex justify-evenly mt-12">
                 <button className="px-6 py-3 text-lg bg-gradient-to-t from-orange-500 rounded-full to-yellow-500 hover:from-orange-700 hover:to-yellow-700">
                   Live preview
@@ -125,11 +131,13 @@ function App() {
               </div>
             </div>
             <div className="border border-gray-500 rounded-md p-5">
-              <img src={Project1} />
+              {/*https://pwa-challenge1-b508091ee337.herokuapp.com/*/}
+              <a href="https://pwa-challenge1-b508091ee337.herokuapp.com/" target="_blank" class="project 4"></a>
+              <img src={Project4} alt="https://pwa-challenge1-b508091ee337.herokuapp.com/" />
               <h3 className="text-2xl font-semibold mt-8">
-                Project Description
+              This application features a number of data persistence techniques, insuring the application runs regardless of browser supported function. 
               </h3>
-              <p className="text-gray-400 text-sm mt-4">Project Name</p>
+              <p className="text-gray-400 text-sm mt-4">https://github.com/tfkjosh/PWA-Challenge</p>
               <div className="flex justify-evenly mt-12">
                 <button className="px-6 py-3 text-lg bg-gradient-to-t from-orange-500 rounded-full to-yellow-500 hover:from-orange-700 hover:to-yellow-700">
                   Live preview
@@ -137,12 +145,13 @@ function App() {
                 <button className="px-6 py-3 border rounded-full hover:border-orange-500 hover:text-yellow-500">
                   Checkout github
                 </button>
+                </div>
               </div>
             </div>
           </div>
         </section>
         {/* Technologies */}
-        <section className="py-10">
+        <section className="py-10" section id="Experience">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font semi-bold">Experience</h2>
             <div className="mt-14">
@@ -155,7 +164,7 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS, Sass & Bootstrap</h2>
+                  <h2 className="font-semibold">CSS, Tailwind & Bootstrap</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
@@ -204,39 +213,39 @@ function App() {
         <section>
           <div className="container m-auto px-4 py-14">
             <h2 className="text-2xl font-semibold">
-              Additional technologies and skills
+              Additional technologies
             </h2>
             <div className="flex justify-between mt-12 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Git
+                  Git Flow
                 </p>
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Mongo DB
+                  MySQL
                 </p>
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Team Work
+                  Express
                 </p>
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Quick learning
+                  Apollo Sever/Graph QL
                 </p>
               </div>
             </div>
             <div className="flex justify-between mt-6 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Engagement
+                  Model View Controller
                 </p>
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  API
+                  Server/Client Side API
                 </p>
               </div>
               <div>
@@ -247,14 +256,16 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="py-8">
+        <section className="py-8" section id="About-me">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font semi-bold">About Me</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 before:w-1 before:bg-white">
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute -left-0 text-lg font-semibold">2023</h3>
                 <p>
-                  Prior to enrolling into the UTA Coding Bootcamp, I've worked on multiple warehouse sites and public facilities primarily specializing in customer service. 
+                  Prior to enrolling into the UTA Coding Bootcamp, I was a general laborer. I have 2 years of customer service experience and
+                  a proven track record of adaptability, dedication, attentiveness to details, patience and great communication.
+                  I am eager to continue learning and buidling my knowledge to implement innovative solutions to challenging local and global issues.
                 </p>
               </div>
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:absolute before:rounded-full before:left-[58px]">
@@ -279,21 +290,24 @@ function App() {
           </div>
         </section>
       </main>
+        <section className="py-8" section id="Contact">
+          <div className="container m-auto flex justify-between px-4">
+            <form action="https://formspree.io/f/xbjngaap" method="POST">
+             <h2 className="text-2xl font semi-bold">Contact Me</h2>
+              <input type="text" name="First" placeholder="First Name" autoComplete="off" required></input>
+              <input type="text" name="Last" placeholder="Last Name" autoComplete="off" required></input>
+              <input type="email" name="Email" placeholder="Email Address" autoComplete="off" required></input>
+              <textarea rows="5" cols="60" name="message" placeholder="Enter text" autoComplete="off" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </section>
       <footer>
-        <div className="container m-auto flex justify-between px-4">
+        <div className="container m-auto px-4">
           <div>
             <p className="text-gray-300 text-sm">
             Copyright @ 2024
             </p>
-            <form method="post" onSubmit={handleSubmit}>
-            <h1>Contact<span> Here</span></h1>
-            <input type="text" name="name" id="" onChange={handleChange} value={data.name} placeholder="Enter Name"/>
-            <input type="email" name="email" id="" onChange={handleChange} value={data.email} placeholder="Example@mail.com"/>
-            <input type="phone" name="phone" id="" onChange={handleChange} value={data.phone} placeholder="+91"/>
-            <input type="message" id="" cols="30" onChange={handleChange} rows="10" value={data.message} placeholder="Type here..."/>
-            <button type="submit">Send</button> 
-            <p>{data.name},{data.email},{data.phone},{data.message} </p>
-          </form>
           </div>
           <div>
             <ul className="flex gap-4">
