@@ -63,7 +63,7 @@ Checkout Deployed Site! [Joshua King] (https://react-portfolio-joshuaking.netlif
 Created by [Joshua King](github.com/tfkjosh). 
 [To view resume, download link!](https://github.com/tfkjosh/React-Portfolio/files/14174656/New.Resume.2.pdf)
 
-##License
+## License
 
 MIT License
 
