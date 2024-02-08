@@ -56,7 +56,9 @@ To view in localhost:
 Type npm i into terminal
 Type npm run dev into terminal
 
-Checkout Deployed Site! [Joshua King] (https://new-reactportfolio.netlify.app/) 
+Checkout Deployed Site! [Joshua King] 
+
+(https://new-reactportfolio.netlify.app/) 
 
 ## Credits
 
