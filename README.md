@@ -61,7 +61,10 @@ Checkout Deployed Site! [Joshua King] (https://new-reactportfolio.netlify.app/)
 ## Credits
 
 Created by [Joshua King](github.com/tfkjosh). 
-[To view resume, download link!](https://github.com/tfkjosh/React-Portfolio/files/14174656/New.Resume.2.pdf)
+[To view resume, download link!]
+
+
+(https://github.com/tfkjosh/React-Portfolio/files/14174656/New.Resume.2.pdf)
 
 ## License
 
