@@ -1,4 +1,4 @@
-# React-Portfolio
+# React + Vite
 
 ## Table of Contents
 
