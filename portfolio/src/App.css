@@ -8,11 +8,6 @@ body {
   font-family: "Poppins";
 }
 
-*{
-  box-sizing: border-box;
-  background-color: 
-}
-
 input {
   background-color: #000;
   width: 100%;
@@ -65,12 +60,12 @@ button:hover {
 }
 
 .gradiant-text {
-  -webkit-background-clip: text;
+  background-clip: text;
   @apply bg-gradient-to-t from-orange-500 to-yellow-500 text-transparent;
   overflow: hidden;
   border-right: 2px solid #fff;
-  animation: typing-text steps(40) 3s infinite, blink linear 0.1s infinite;
-  text-wrap: nowrap;
+  animation: typing-text steps(30) 3s infinite, blink linear 0.1s infinite;
+  flex-wrap: nowrap;
   display: inline-block;
   width: 0;
 }
@@ -108,7 +103,7 @@ button:hover {
 
   .about-me p {
       font-size: 16px;
-      /*padding: 0 15px;*/
+      padding: 0 15px;
       line-height: 1.6;
   }
 }

@@ -25,27 +25,35 @@ const headerOptions = [
     href: "#about-me",
   },
   {
+    name: "Skills",
+    href: "#skills",
+  },
+  {
     name: "Contact",
     href: "#contact",
   },
+ 
 ];
 
 const projects = [
   {
     imgSrc: AmazonNavigatorImgSrc,
     githubHref: "https://github.com/alla0810/Group9",
+    livePreviewHref: "https://alla0810.github.io/AmazonNavigator/",
     description:
       "The AMAZON NAVIGATOR is designed for customers to view item reviews and pricing.",
   },
   {
     imgSrc: PlantParenthoodImgSrc,
     githubHref: "https://github.com/VictoriaSweet/scary-potato",
+    livePreviewHref: "https://nameless-wave-14504-8d3cae4aaa8e.herokuapp.com/",
     description:
       "Plant Parenthood is the application to help the those who are new to the hobby or just maybe even a weekend plant-sitter or award winning growers.",
   },
   {
     imgSrc: PasswordGeneratorImgSrc,
     githubHref: "https://github.com/tfkjosh/Password-generator",
+    livePreviewHref: "https://tfkjosh.github.io/Password-generator/",
     description:
       "This application is designed for an employee to generate a random password based on criteria they've selected.",
   },
@@ -89,7 +97,7 @@ function App() {
                 A Junior Web Developer
               </h2>
               <p className="mt-4 text-gray-400">
-                Former general laborer, seeking to apply competent development
+                Seeking to apply competent development
                 skills with focus on collaboration, communication and passion.
               </p>
             </div>
@@ -146,14 +154,14 @@ function App() {
               <div>
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">HTML</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-full h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">CSS, Tailwind & Bootstrap</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
@@ -162,35 +170,35 @@ function App() {
                   <h2 className="font-semibold">
                     JavaScript, TypeScript, JQuery
                   </h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">UI design in Figma</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="text-lg font-semibold">Angular</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">React</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">React Native</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  <p className="text-gray-500">Beginner</p>
                 </div>
                 <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-orange-500 to-yellow-500 block rounded-md"></span>
               </div>
@@ -199,9 +207,9 @@ function App() {
         </section>
 
         {/* Additional skills section*/}
-        <section id="additional-technologies">
+        <section id="skills">
           <div className="container m-auto px-4 py-14">
-            <h2 className="text-2xl font-semibold">Additional technologies</h2>
+            <h2 className="text-2xl font-semibold">Additional Skills</h2>
             <div className="flex justify-between mt-12 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
@@ -262,7 +270,7 @@ function App() {
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-orange-500 before:to-yellow-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute -left-0 text-lg font-semibold">2024</h3>
                 <p>
-                  I graduated UTA (University of Texas at Austin) and have
+                  I graduated January 30th from the University of Texas Coding Bootcamp and have
                   experience in web development for approximately 1 year. I am
                   passionate about creating user-friendly and visually appealing
                   websites. I am self-motivated and a team player to help
