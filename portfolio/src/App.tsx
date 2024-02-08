@@ -194,7 +194,7 @@ const App = () => {
               className="flex flex-col gap-y-4"
             >
               <h2 className="text-2xl font semi-bold">Contact Me</h2>
-              <div className="grid grid-cols-2 gap-x-4">
+              <div className="grid md:grid-cols-2 grid-cols-1 gap-x-4">
                 <Input
                   type="text"
                   name="First"
