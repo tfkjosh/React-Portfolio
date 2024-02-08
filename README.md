@@ -11,7 +11,7 @@
 
 ## Description
 
-Welcome to my first React Portfolio! My portfolio allows viewers an insight into my personality and work ethic. I plan on keeping track of my learning progress and skill development over time!
+Welcome to my portfolio! As a Web Developer, I am passionate about [mentio. Through this portfolio, I aim to showcase my skills, experiences, and projects that demonstrate my proficiency and creativity in [mention specific skills or tools]. Each project represents a unique challenge I’ve tackled, employing innovative solutions and a meticulous approach to achieve exceptional results. I invite you to explore my work and discover how I can contribute value to your team or project. Thank you for visiting! I plan on keeping track of my learning progress and skill development over time!
 
 ## Acceptance Criteria
 GIVEN a single-page application portfolio for a web developer
