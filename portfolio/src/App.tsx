@@ -1,7 +1,6 @@
 import clsx from "clsx";
 
 import Profile from "./assets/Photo.png";
-import facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 
@@ -167,7 +166,7 @@ const App = () => {
                 <h3 className="absolute -left-0 text-lg font-semibold">2024</h3>
                 <p>
                   I graduated January 30th from the University of Texas Coding
-                  Bootcamp and have experience in web development for
+                  Bootcamp at Austin and have experience in web development for
                   approximately 1 year. I am passionate about creating
                   user-friendly and visually appealing websites. I am
                   self-motivated and a team player to help achieve goals and
@@ -242,17 +241,12 @@ const App = () => {
           <div>
             <ul className="flex gap-4">
               <li>
-                <a>
-                  <img src={facebook} className="w-5" />
-                </a>
-              </li>
-              <li>
-                <a>
+                <a href="https://www.linkedin.com/in/joshua-king-57ab0a2b4/">
                   <img src={LinkedIn} className="w-5" />
                 </a>
               </li>
               <li>
-                <a>
+                <a href="https://www.instagram.com/babyjeter_/">
                   <img src={Instagram} className="w-5" />
                 </a>
               </li>

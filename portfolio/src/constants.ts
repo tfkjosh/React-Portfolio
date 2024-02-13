@@ -118,9 +118,11 @@ export const additionalSkills = [
   "Git Flow",
   "MySQL",
   "Express",
-  "Apollo",
+  "Apollo Server",
   "GraphQL",
   "NodeJS",
+  "Web-API",
+  "Object-Oriented Programming",
 ];
 
 export const experienceWidthByLevel: Record<ExperienceLevel, number> = {
