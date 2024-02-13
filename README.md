@@ -63,12 +63,8 @@ Checkout Deployed Site! [Joshua King]
 ## Credits
 
 Created by [Joshua King](github.com/tfkjosh). 
-[To view resume, download link!]
+Thank you, [Justin Seglar](github.com/justin-segler) for the major help!
 
-
-[
-(https://github.com/tfkjosh/React-Portfolio/issues/3#issue-2124164246)
-]
 
 ## License
 
