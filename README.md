@@ -63,7 +63,7 @@ Checkout Deployed Site! [Joshua King]
 ## Credits
 
 Created by [Joshua King](github.com/tfkjosh). 
-[To view resume, download link!]
+Thank you, [Justin Seglar] () for the help!
 
 
 [
