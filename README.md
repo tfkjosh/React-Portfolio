@@ -64,7 +64,6 @@ Checkout Deployed Site! [Joshua King](https://joshua-king.netlify.app/)
 
 Created by [Joshua King](github.com/tfkjosh). 
 Thank you, [Justin Seglar](github.com/justin-segler) for the major help!
-![New.Resume.2 (1).pdf](https://github.com/tfkjosh/React-Portfolio/files/14289266/New.Resume.2.1.pdf)
 
 
 ## License
