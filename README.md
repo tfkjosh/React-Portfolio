@@ -57,6 +57,7 @@ Open portfolio folder in intergrated terminal
 Type npm i into terminal
 Type npm run dev into terminal
 
+![Screen Shot 2024-02-14 at 4 08 37 PM](https://github.com/tfkjosh/React-Portfolio/assets/140848241/985d5a9e-ee22-461a-8145-5c928ca101bd)
 Checkout Deployed Site! [Joshua King](https://joshua-king.netlify.app/) 
 
 ## Credits
