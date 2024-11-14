@@ -58,7 +58,7 @@ Type npm run dev into terminal
 
 Checkout Deployed Site! [Joshua King] 
 
-(https://new-reactportfolio.netlify.app/) 
+(https://mrjoshuaking.netlify.app/) 
 
 ## Credits
 
